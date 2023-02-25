@@ -1,11 +1,12 @@
 package com.example.demo.Models;
 
 import jakarta.persistence.Entity;
+//import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+//import jakarta.persistence.Table;
 
 @Entity
-@Table(name="table")
+//@Table(name="table")
 public class Employee {
 	@Id
 	private int id;
